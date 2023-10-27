@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500);
+
+/*@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/box.css");
+*/
+
+body {
+    font-family: 'Roboto', serif;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.h1, .h2, .h3 {
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: rgba(250, 250, 250, 1);
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0;
+    animation: gradient 15s ease infinite;
+    font-size: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+body::after {
+    background: rgba(250, 250, 250, 1);
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 200%; 
+    height: 200%; 
+    z-index: -1; 
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.2);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    z-index: 1;
+}
+
+.h1 {
+    text-justify: justify;
+    margin: 0px;
+}
+
+footer {
+    text-align: center;
+    margin-block: 0px;
+    bottom: 0px;
+    position: relative;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+#About_Us a {
+    color: white;
+    margin: 10px;
+}
+
+.banner {
+    background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/fond.png);
+    color: white;
+    padding: 300px 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner, .h1  {
+    font-size: 55px;
+    text-align: center;
+    margin: 0px;
+}
+
+.banner, .h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 400px;
+    text-align: center;
+    margin: 0px;
+}
+
+.btn-blue {
+    background-color: #655ff6;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.btn-blue-box {
+    background-color: #655ff6;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgrey;
+}   
+ 
+.price-box {
+    flex: 1;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 2);
+    border-radius: 10px;
+    margin: 30px; 
+    padding: 20px; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.price-box .btn-blue-box{
+    flex: 1;
+    margin: 10px;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 15px; 
+    border: 1px solid #ccc;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+}
+
+.container .h1 {
+  width: 1500px;
+  margin: 100 auto;
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+
+@media (max-width: 900px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 500px;
+  }
+}
